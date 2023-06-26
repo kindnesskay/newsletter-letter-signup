@@ -136,7 +136,7 @@ label span {
 
 h1 {
   font-family: "roboto_bold";
-  font-size: clamp(30px, 2.5vw, 50px);
+  font-size: 50px;
 }
 
 ul {
@@ -169,10 +169,10 @@ ul {
   margin: 0%;
   width: auto;
   max-width: 350px;
-  height: 100%;
+  height: fit-content;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 20px;
   font-weight: 400;
   padding: 30px;
 }
